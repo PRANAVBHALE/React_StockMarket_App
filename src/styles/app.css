@@ -1,0 +1,41 @@
+.app {
+  text-align: center;
+  width: 100%;
+}
+
+.main-container{
+  width: calc(100% - 25px);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 25px;
+}
+
+
+
+.app > .main-container > .table-data, .App > .graph-chart{
+  flex: 0 0 auto;
+}
+
+.app > .header {
+  height: 80px;
+  line-height: 80px;
+  font-size: 38px;
+  letter-spacing: 0.2px;
+  width: 80%;
+  margin: 0 auto 5%;
+  border-bottom: 3px solid black;
+}
+
+.table-data{
+  width: 35%;
+  line-height: 25px;
+}
+
+.graph-chart{
+  margin-top : 2.5%;
+  width: 65%
+}
+
+
+
